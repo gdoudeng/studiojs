@@ -120,7 +120,7 @@ class Track {
 
   play() {
     this.isEnable = true;
-    this.stage.trigger("ready");
+    // this.stage.trigger("ready");
   }
 
   pause() {
